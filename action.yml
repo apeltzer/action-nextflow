@@ -1,0 +1,13 @@
+name: 'Nextflow installer'
+description: 'Install a specific version of Nextflow'
+inputs: 
+  version:
+    description: 'Version of Nextflow'
+    required: true
+    default: '19.10.0'
+branding:
+  icon: 'gift'
+  color: 'blue'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
