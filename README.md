@@ -19,6 +19,6 @@ jobs:
     - uses: apeltzer/action-nextflow@master
       with:
         version: 19.10.0
-    - run: pulumi version
+    - run: nextflow info
 
 ```
